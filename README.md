@@ -17,7 +17,7 @@ JSON=$(cat <<EOF
 EOF
 )
 
-# run
+# build
 
 curl -X POST -H "Content-Type:application/json" -d "$JSON" "http://localhost:8080/function"
 
