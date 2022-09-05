@@ -39,7 +39,6 @@ var body = function_module.FunctionModule{
 	Path:     "function-lcy",
 	Cpu:      "2",
 	Memory:   "512m",
-	Uptime:   "30",
 }
 
 func TestBuild(t *testing.T) {

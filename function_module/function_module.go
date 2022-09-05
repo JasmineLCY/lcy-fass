@@ -15,13 +15,7 @@ type FunctionModule struct {
 	Path     string
 	Cpu      string
 	Memory   string
-	Uptime   string
 }
-
-// type ResqonseTYpe struct {
-// 	FunctionName string
-// 	Result string
-// }
 
 func (F *FunctionModule) Build() (err error) {
 	fileData, err := base64.StdEncoding.DecodeString(F.Source)
